@@ -1,5 +1,3 @@
 class Student < User 
-     def first_name=(first_name)
-       
-     end
+      attr_accessor:first_name
 end
